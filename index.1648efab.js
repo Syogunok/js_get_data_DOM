@@ -1,0 +1,2 @@
+for(var t=document.querySelectorAll(".population"),e=[],o=0;o<t.length;o++){var n=parseInt(t[o].textContent.replace(/,/g,""),10);e.push(n)}for(var r=0,a=0;a<e.length;a++)r+=e[a];var l=Math.round(r/e.length);document.querySelector(".total-population").textContent=r.toLocaleString(),document.querySelector(".average-population").textContent=l.toLocaleString();
+//# sourceMappingURL=index.1648efab.js.map
